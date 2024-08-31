@@ -6,5 +6,8 @@ To run this program:
 3. Once you have the files on the environment open the terminal
 4. Then in the terminal type in "make"
 5. This should build object files, like "main.o", for each file and an executable called "pagingwithpr" (ignore the warnings)
-6. Now feel free to type in "./pagingwithpr trace.tr 10 12", meaning this is going to create a tree with 2 levels, the first level being able to hold 10 bits and the second level being able to hold 12 bits
+6. Now feel free to type in "./pagingwithpr trace.tr 6 8", meaning this is going to create a tree with 2 levels, the first level being able to hold 6 bits and the second level being able to hold 8 bits
 7. A summary of the results should output in the terminal
+
+Note:
+- To specify that you would like to see the mapping of what virtual addresses are mapped to physcial addresses specify, "./pagingwithpr -l va2pa trace.tr 6 8"
